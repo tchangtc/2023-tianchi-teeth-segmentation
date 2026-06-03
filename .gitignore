@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyTorch / Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Data archives (large files)
+data/**/*.zip
+data/**/*.7z
+
+# Training output
+code/result*/
+code/output/
+
+# Test predictions
+code/test/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Pretrained weights (large files)
+pretrained/
